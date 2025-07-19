@@ -25,7 +25,7 @@ app.post('/token', (req, res) => {
     token_type: "Bearer",
     access_token: "test_access_token",
     refresh_token: "test_refresh_token",
-    expires_in: 3600
+    expires_in: 9999999
   });
 });
 
